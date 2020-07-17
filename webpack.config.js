@@ -16,12 +16,11 @@ module.exports = {
   plugins: [
     new HTMLWebpackPlugin({
       template: path.resolve(__dirname, 'index.html'),
-      // favicon: path.resolve(__dirname, './content/favicon.ico'),
     }),
     new CleanWebpackPlugin(),
     new CopyWebpackPlugin({
       patterns: [
-        { from: path.resolve(__dirname, './content'), to: path.resolve(__dirname, './dist/content') },
+        { from: path.resolve(__dirname, './content/flights.json'), to: path.resolve(__dirname, './dist/content/flights.json') },
       ],
     })
   ],

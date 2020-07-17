@@ -1,0 +1,45 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+
+.header__logo--container {
+    height: 90px;
+}
+
+.header__logo--helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.header__logo--logo {
+    height: 60px;
+}
+
+.flight-direction__container {
+    font-size: 1.3rem;
+}
+
+.flight-time__time {
+    font-size: 1.6rem;
+}
+
+.flight-time__date {
+    font-size: 1.4rem;
+}
+
+.flight-time__duration {
+    font-size: 1.2rem;
+}
+
+.carrier__container {
+    font-size: 1.2rem;
+}
+
+.confirm__container {
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.more-results__container {
+    cursor: pointer;
+}
